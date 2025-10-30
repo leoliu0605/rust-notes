@@ -16,7 +16,7 @@ This is the repository of quick study notes for the [Rust Book](https://doc.rust
 - `cargo check`
 - `cargo doc --open`
 - `cargo test`
-  - see [`./src/lib.rs`](./src/lib.rs) for examples of writing unit tests and [`./tests`](./tests) for integration tests
+  - see [`src/lib.rs`](./src/lib.rs) for examples of writing unit tests and [`tests`](./tests) for integration tests
   - default is `parallel` testing, use `-- --test-threads=1` for sequential testing
   - `-- --show-output` to see `println!` output in tests
   - `-- --ignore` to ignore specific test unless explicitly called
