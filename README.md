@@ -1,3 +1,9 @@
+# Rust Notes
+
+This is the repository of quick study notes for the [Rust Book](https://doc.rust-lang.org/stable/book/).
+
+## Cargo Commands
+
 - `cargo new <project-name>` for binary project and with `--lib` for library project
 - `cargo init` to initialize a new cargo project in an existing directory
   - also works with `--lib` flag
@@ -14,5 +20,6 @@
   - `cargo test <test-function-name>` to run specific test for unit tests
   - `cargo test --test <test-file-name>` to run specific test file for integration tests
 
+## Useful Links
 
 - rust [std](https://doc.rust-lang.org/std/prelude/index.html) library
