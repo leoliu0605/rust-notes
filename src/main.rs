@@ -1,9 +1,10 @@
 use std::cmp::Ordering;
+use std::error::Error;
 use std::io;
 
 use rand::Rng;
 
-fn main() {
+fn main() -> Result<(), Box<dyn Error>> {
     println!("Guess the number!");
 
     let secret_number = rand::thread_rng().gen_range(1..=100);
@@ -35,4 +36,6 @@ fn main() {
             }
         }
     }
+
+    Ok(())
 }
