@@ -27,3 +27,7 @@ This is the repository of quick study notes for the [Rust Book](https://doc.rust
 ## Useful Links
 
 - rust [std](https://doc.rust-lang.org/std/prelude/index.html) library
+
+## More ...
+
+- See [minigrep](./minigrep) for a simple command-line tool example that show how to use Rust for file I/O and string manipulation.
