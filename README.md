@@ -2,6 +2,10 @@
 
 This is the repository of quick study notes for the [Rust Book](https://doc.rust-lang.org/stable/book/).
 
+## Need More Time to Digest
+
+- About [lifetime](https://doc.rust-lang.org/book/ch10-03-lifetime-syntax.html)
+
 ## Cargo Commands
 
 - `cargo new <project-name>` for binary project and with `--lib` for library project
