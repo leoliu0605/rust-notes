@@ -4,7 +4,7 @@ This is the repository of quick study notes for the [Rust Book](https://doc.rust
 
 ## Need More Time to Digest
 
-- About [lifetime](https://doc.rust-lang.org/book/ch10-03-lifetime-syntax.html)
+- What is `'a` meaning in [lifetime](https://doc.rust-lang.org/book/ch10-03-lifetime-syntax.html)
 
 ## Cargo Commands
 
