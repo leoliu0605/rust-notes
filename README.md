@@ -26,10 +26,14 @@ This is the repository of quick study notes for the [Rust Book](https://doc.rust
 - `cargo publish` to publish the crate to [crates.io](https://crates.io/)
   - make sure to update version in `Cargo.toml` before publishing
   - `cargo yank --vers <version>` to yank a specific version to prevent new projects from using it
+- `cargo install <crate-name>` to install a binary crate from [crates.io](https://crates.io/)
+  - use `--force` to reinstall or update an already installed crate
+  - more info: [cargo install](https://doc.rust-lang.org/book/ch14-04-installing-binaries.html)
 
 ## Useful Links
 
 - rust [std](https://doc.rust-lang.org/std/prelude/index.html) library
+- Read more about [workspaces](https://doc.rust-lang.org/book/ch14-03-cargo-workspaces.html) for managing multiple related packages
 
 ## More ...
 
