@@ -5,6 +5,7 @@ This is the repository of quick study notes for the [Rust Book](https://doc.rust
 ## Need More Time to Digest
 
 - What is `'a` meaning in [lifetime](https://doc.rust-lang.org/book/ch10-03-lifetime-syntax.html)
+- Deeply understand [Smart Pointers](https://doc.rust-lang.org/book/ch15-00-smart-pointers.html) when needed
 
 ## Cargo Commands
 
