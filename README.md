@@ -23,6 +23,9 @@ This is the repository of quick study notes for the [Rust Book](https://doc.rust
   - `-- --include-ignored` to include ignored tests
   - `cargo test <test-function-name>` to run specific test for unit tests
   - `cargo test --test <test-file-name>` to run specific test file for integration tests
+- `cargo publish` to publish the crate to [crates.io](https://crates.io/)
+  - make sure to update version in `Cargo.toml` before publishing
+  - `cargo yank --vers <version>` to yank a specific version to prevent new projects from using it
 
 ## Useful Links
 
