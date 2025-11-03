@@ -1,25 +1,23 @@
-mod front_of_house {
-    pub mod hosting {
-        pub fn add_to_waitlist() {}
+//! # Rust Notes
+//!
+//! `rust_notes` is a collection of utilities to make performing certain
+//! calculations more convenient.
 
-        fn seat_at_table() {}
-    }
-
-    mod serving {
-        fn take_order() {}
-
-        fn serve_order() {}
-
-        fn take_payment() {}
-    }
-}
-
-pub fn eat_at_restaurant() {
-    // Absolute path
-    crate::front_of_house::hosting::add_to_waitlist();
-
-    // Relative path
-    front_of_house::hosting::add_to_waitlist();
+// Below is a public function with documentation comments.
+// Open it with the command `cargo doc --open` to see the generated documentation.
+// ==================================================
+/// Adds one to the number given.
+///
+/// # Examples (This section can be run as a test)
+///
+/// ```
+/// let arg = 5;
+/// let answer = rust_notes::add_one(arg);
+///
+/// assert_eq!(6, answer);
+/// ```
+pub fn add_one(x: i32) -> i32 {
+    x + 1
 }
 
 pub fn add(left: u64, right: u64) -> u64 {
@@ -42,6 +40,30 @@ impl Guess {
 
         Guess { value }
     }
+}
+
+mod front_of_house {
+    pub mod hosting {
+        pub fn add_to_waitlist() {}
+
+        fn seat_at_table() {}
+    }
+
+    mod serving {
+        fn take_order() {}
+
+        fn serve_order() {}
+
+        fn take_payment() {}
+    }
+}
+
+pub fn eat_at_restaurant() {
+    // Absolute path
+    crate::front_of_house::hosting::add_to_waitlist();
+
+    // Relative path
+    front_of_house::hosting::add_to_waitlist();
 }
 
 ///
