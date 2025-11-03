@@ -83,7 +83,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "rust-notes"
+name = "rust_notes"
 version = "0.1.0"
 dependencies = [
  "rand",
