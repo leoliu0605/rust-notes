@@ -30,6 +30,11 @@ This is the repository of quick study notes for the [Rust Book](https://doc.rust
 - `cargo install <crate-name>` to install a binary crate from [crates.io](https://crates.io/)
   - use `--force` to reinstall or update an already installed crate
   - more info: [cargo install](https://doc.rust-lang.org/book/ch14-04-installing-binaries.html)
+- `cargo add <dependency>` to add a dependency to `Cargo.toml`
+  - requires `cargo-edit` tool, install with `cargo install cargo-edit`
+- `cargo update` to update dependencies in `Cargo.lock` to the latest allowed versions based on `Cargo.toml`
+- `cargo tree` to visualize the dependency graph of the project
+  - requires `cargo-tree` tool, install with `cargo install cargo-tree`
 
 ## Useful Links
 
