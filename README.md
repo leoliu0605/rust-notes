@@ -35,6 +35,9 @@ This is the repository of quick study notes for the [Rust Book](https://doc.rust
 - `cargo update` to update dependencies in `Cargo.lock` to the latest allowed versions based on `Cargo.toml`
 - `cargo tree` to visualize the dependency graph of the project
   - requires `cargo-tree` tool, install with `cargo install cargo-tree`
+- `cargo fmt` to format the code using `rustfmt`
+- `cargo fix` to automatically fix common issues
+- `cargo clippy` to run the Clippy linter for catching common mistakes and improving code quality
 
 ## Useful Links
 
