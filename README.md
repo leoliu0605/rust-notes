@@ -48,3 +48,4 @@ This is the repository of quick study notes for the [Rust Book](https://doc.rust
 
 - See [minigrep](./minigrep) for a simple command-line tool example that show how to use Rust for file I/O and string manipulation.
 - See [hello-async](./hello-async) for a simple example of using async-await in Rust.
+- See [web-server](./web-server) for a basic web server example that demonstrates handling multiple connections concurrently.
